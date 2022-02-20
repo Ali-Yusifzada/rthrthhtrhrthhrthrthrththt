@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 98vw;
+    background-color: #5352d4 !important;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        display: flex;
+
+        #div1,
+        #div2 {
+            float: left;
+        }
+
+        #div1 {
+            flex-grow: 1;
+            padding-top: 40px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            background-color: #5655da !important;
+            position: sticky !important;
+            position: fixed;
+            top: 0 !important;
+
+            #div3 {
+                width: 200px !important;
+                height: 200px !important;
+                border-radius: 100%;
+                overflow: hidden;
+                margin-left: 93px;
+                border: 1px solid rgb(255, 255, 255) !important;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            h3 {
+                position: absolute;
+                top: 280px !important;
+                color: white;
+                font-weight: 800;
+            }
+
+            #span1 {
+                color: #ffffff;
+                position: absolute;
+                top: 315px !important;
+                margin-left: -20px;
+                font-weight: 100;
+            }
+
+            #ad {
+                position: absolute;
+                top: 375px !important;
+
+                svg {
+                    width: 20px !important;
+                    height: 20px !important;
+                    fill: white !important;
+                    cursor: pointer !important;
+                    transition: 0.5s !important;
+                }
+            }
+
+            .sp6 {
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        #div2 {
+            flex-grow: 2;
+            background-color: #ffffff !important;
+            padding: 40px;
+
+            .span1 {
+                position: absolute;
+                top: 100px !important;
+            }
+
+            .p1 {
+                position: absolute;
+                top: 320px !important;
+            }
+            .div66{
+                display: flex;
+                margin-top: 20px;
+                .div77{
+                    position: relative;
+                    height: 4px;
+                    background-color: rgba(192, 192, 192, 0.712);
+                    margin-top: 30px;
+                    .div88{
+                        position: absolute;
+                        height: 4px;
+                        background-color: rgb(255, 0, 85);
+                    }
+                }
+                .class{
+                    color: grey;
+                    float: right;
+                    margin-right: 27px !important;
+                }
+            }
+            .d111{
+                margin-top: 330px;
+            }
+            #afbw{
+                cursor: pointer;
+                transition: 0.5s;
+                &:hover{
+                    color: black !important;
+                }
+            }
+            #input{
+                border: none;
+                border-bottom: 1px solid rgb(0, 0, 0);
+                padding-bottom: 12px;
+                padding-left: 0px !important;
+            }
+            textarea{
+                height: 200px;
+            }
+        }
+    }
+}
